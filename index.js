@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 const port = 5500;
 
 app.listen(port, () => {
-    console.log('Port running at ' + port);
+    console.log('Port running at     ' + port);
 })
 
 client.query('CREATE DATABASE school_app')
